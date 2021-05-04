@@ -1,0 +1,6 @@
+RewriteEngine on
+
+RewriteRule ^([a-z]+)$ index.php?route=$1
+RewriteRule ^project/post/$ app/routes/project.post.php
+RewriteRule ^project/get/$ app/routes/project.get.php
+
